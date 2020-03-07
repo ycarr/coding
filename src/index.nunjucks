@@ -2,14 +2,31 @@
 
 {% import "_modules/link/link.nunjucks" as link %}
 
-{% block headline %}This is my headline{% endblock %}
+{% block headline %}A South L.A. neighborhood grapples with a wave of violence{% endblock %}
 {% block byline %}By Yana Carr{% endblock %}
 {% block pubdate %}
 <time datetime="2020-03-07" pubdate>
   March 7, 2020
+</time>
 {% endblock %}
 
 {% block content %}
+
+<h3>One corner. Four killings</h3>
+<div id="map"></div>
+
+<section>
+<h3>A South L.A. neighborhood stands apart</h3>
+<p> Harvard Park's 2016 homicide total was its highest in 15 years.</p>
+</section>
+<div class="charts">
+  <div class="inline-chart" id="county-homicides">
+  <h4 class="chart-title">County homicides, 2000-2017</h4>
+  </div>
+  <div class="inline-chart" id="harvard-park-homicides">
+  <h4 class="chart-title">Harvard Park homicides, 2000-2017</h4>
+  </div>
+</div>
 
 <section>
 <h3>Lives lost in Harvard Park</h3>

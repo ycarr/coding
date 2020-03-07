@@ -1,0 +1,29 @@
+.inline-chart {
+  width: 49%;
+  display: inline-block;
+}
+
+.chart-title {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bar {
+  fill: #86c7df;
+  &:hover {
+    fill: #2ab2e4;
+  }
+}
+
+.domain {
+  display: none;
+}
+
+.x .tick line {
+  display: none;
+}
+
+.y .tick:not(:first-of-type) line {
+  stroke: #e7e7e7;
+}
